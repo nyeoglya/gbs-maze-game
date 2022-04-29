@@ -3,7 +3,7 @@
 #include <time.h>
 #include <windows.h>
 
-#define _size	9 // È¦¼ö ±ÇÀå 
+#define _size	19 // È¦¼ö ±ÇÀå 
 
 #define LEFT	1
 #define RIGHT	2
@@ -191,7 +191,7 @@ int main(void) {
 		
 		printf("%d: %d (%d, %d)\n", stackCount, mazeStack[stackCount], i, j);
 		
-		Sleep(100);
+		Sleep(25);
 		
 		while (1) {
 			if (GetAsyncKeyState(VK_RETURN)) break;
